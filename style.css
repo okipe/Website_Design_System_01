@@ -1,9 +1,111 @@
+/*Structure
+
+1. General
+2. Header
+3. Content
+4. Footer
+
+
+*/
+
+/*General */
+
 *{
   box-sizing: border-box;
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
 }
 
 body {
   font-family: 'Nunito Sans', sans-serif;
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+/*Header*/
+
+h1 {
+  font-size: 36px;
+  margin: 30px auto;
+}
+
+/*Content*/
+
+.container h2{
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+.unit {
+  margin: 100px 0;
+}
+
+.unit img{
+  max-width: 33%;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.color{
+  width: 100%;
+}
+
+.unit-color {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.color1 {
+  background-color: #0d0d0d;
+  color: white;
+
+}
+
+.color2 {
+  background-color: #262a3b;
+  color: white;
+}
+
+.color3 {
+  background-color: #fffbef;
+  color: black;
+}
+
+.color4 {
+  background-color: #f2d541;
+  color: black;
+}
+
+.color5 {
+  background-color: #fe4a55;
+  color: black;
+}
+
+.fonts {
+  margin: 0;
+}
+
+.fonts p {
+  font-family: "Nunito Sans" sans-serif;
+}
+
+.fonts-title {
+  font-size: 32px;
+}
+
+.fonts1 {
+  font-style: normal;
+}
+
+.fonts2 {
+  font-weight: 700;
+}
+
+.fonts3 {
+  font-style: italic;
 }
